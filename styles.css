@@ -443,10 +443,7 @@ footer .container {
         padding: 10px 0;
     }
 
-    header a {
-        font-size: 7px; /* Font size is set here */
-    }
-
+   
 
     .hero {
         padding: 50px 0;
@@ -457,7 +454,7 @@ footer .container {
     }
 
     .hero p {
-        font-size: 1em;
+        font-size: 1px;
     }
 
     .product-list, .brand-list {
