@@ -425,3 +425,52 @@ footer .container {
     border-radius: 10px;
     opacity: 0.9;
 }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    header nav {
+        float: none;
+        text-align: center;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        padding: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .product-list, .brand-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item, .brand-item {
+        max-width: 100%;
+    }
+
+    .whatsapp-button {
+        width: 80px; /* Tamaño más grande para móviles */
+        height: 80px; /* Tamaño más grande para móviles */
+    }
+
+    .whatsapp-button img {
+        width: 40px; /* Ajusta el tamaño del icono para móviles */
+        height: 40px; /* Ajusta el tamaño del icono para móviles */
+    }
+}
