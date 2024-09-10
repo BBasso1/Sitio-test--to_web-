@@ -443,6 +443,11 @@ footer .container {
         padding: 10px 0;
     }
 
+    header a {
+        font-size: 7px; /* Font size is set here */
+    }
+
+
     .hero {
         padding: 50px 0;
     }
@@ -469,8 +474,4 @@ footer .container {
         height: 80px; /* Tamaño más grande para móviles */
     }
 
-    .whatsapp-button img {
-        width: 40px; /* Ajusta el tamaño del icono para móviles */
-        height: 40px; /* Ajusta el tamaño del icono para móviles */
-    }
 }
