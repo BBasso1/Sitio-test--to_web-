@@ -440,35 +440,104 @@ footer .container {
     }
 
     header li {
-        padding: 10px 0;
+        padding: 5px 0; /* cmbio a 5 pixeles*/
+    }
+    
+
+    /*titulo header*/
+    .container {
+        width: 80%;
+        margin: center;
+        
     }
 
-   
+
+    .roboto {
+        font-size: 1em;
+    }
+
+
 
     .hero {
-        padding: 50px 0;
+        padding: 25px 0;
     }
 
-    .hero h2 {
-        font-size: 2em;
+    .brand-item {
+        flex: 1 1 100px;
+        max-width: 100px;
+        text-align: center;
     }
+    
+    .brand-item img {
+        max-width: 70%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
 
     .hero p {
         font-size: 1px;
     }
 
     .product-list, .brand-list {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3px;
     }
 
-    .product-item, .brand-item {
+    .product-item {
         max-width: 100%;
+        size: 20%;
     }
+
+    .contact {
+        padding: 20px 0;
+        size: 110%;
+    }
+
+    .contact-card img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+
 
     .whatsapp-button {
         width: 80px; /* Tamaño más grande para móviles */
         height: 80px; /* Tamaño más grande para móviles */
     }
+
+
+
+    
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 20px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+
 
 }
