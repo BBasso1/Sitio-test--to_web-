@@ -191,7 +191,8 @@ footer .container {
     color: #ffffff;
     padding: 100px 0;
     text-align: center;
-    opacity: 0.95;
+    
+    /* opacity: 0.95;*/
 }
 
 .hero h2 {
